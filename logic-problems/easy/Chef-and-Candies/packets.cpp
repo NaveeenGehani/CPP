@@ -3,11 +3,10 @@
 using namespace std;
 
 int main() {
-    // your code goes here
     int candiesPerPacket = 4;
     int t;
     cin >> t;
-    while (t--> 0) {
+    while (t-- > 0) {
         int candiesReq;
         int n, x;
         cin >> n >> x;
@@ -19,5 +18,6 @@ int main() {
         int candyPacketsReq = ceil((float) candiesReq / candiesPerPacket);
         cout << candyPacketsReq << endl;
     }
+    return 0;
 
 }
